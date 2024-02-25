@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from "./main/main.component";
+import { SidenavComponent } from "./sidenav/sidenav.component";
 
 @Component({
     selector: 'app-root',
@@ -13,7 +14,8 @@ import { MainComponent } from "./main/main.component";
         RouterOutlet,
         NavbarComponent,
         FooterComponent,
-        MainComponent
+        MainComponent,
+        SidenavComponent
     ]
 })
 export class AppComponent {
