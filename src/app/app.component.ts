@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from "./main/main.component";
 import { SidenavComponent } from "./sidenav/sidenav.component";
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @Component({
     selector: 'app-root',
@@ -15,7 +16,10 @@ import { SidenavComponent } from "./sidenav/sidenav.component";
         NavbarComponent,
         FooterComponent,
         MainComponent,
-        SidenavComponent
+        SidenavComponent,
+        RouterModule,
+        PagenotfoundComponent
+        
     ]
 })
 export class AppComponent {
